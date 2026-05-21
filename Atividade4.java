@@ -18,7 +18,24 @@ saida: os três vetores na tela
         int[] vetor1 = new int[10];
         int[] vetor2 = new int[10];
         int[] vetor3 = new int[10];
-    
+
+        System.out.println("Digite os valores do vetor 1:");
+ 
+        for (int i = 0; i < 10; i++) {
+            vetor1[i] = sc.nextInt();
+        }
+ 
+        System.out.println("Digite os valores do vetor 2:");
+ 
+        for (int i = 0; i < 10; i++) {
+            vetor2[i] = sc.nextInt();
+        }
+ 
+        for (int i = 0; i < 10; i++) {
+            vetor3[i] = vetor1[i] + vetor2[i];
+        }
+
+        sc.close();
     }
 }
 /*
