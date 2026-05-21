@@ -20,17 +20,20 @@ saida: os três vetores na tela
         int[] vetor3 = new int[10];
 
         System.out.println("Digite os valores do vetor 1:");
- 
+        
+        // Ler vetor 1
         for (int i = 0; i < 10; i++) {
             vetor1[i] = sc.nextInt();
         }
  
         System.out.println("Digite os valores do vetor 2:");
- 
+        
+        // Ler vetor 2
         for (int i = 0; i < 10; i++) {
             vetor2[i] = sc.nextInt();
         }
  
+        // Somar vetores
         for (int i = 0; i < 10; i++) {
             vetor3[i] = vetor1[i] + vetor2[i];
         }
@@ -61,4 +64,33 @@ saida: os três vetores na tela
 }
 /*
 testes
+Digite os valores do vetor 1:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Digite os valores do vetor 2:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+Vetor 1:
+1 2 3 4 5 6 7 8 9 10 
+Vetor 2:
+10 9 8 7 6 5 4 3 2 1 
+Vetor 3:
+11 11 11 11 11 11 11 11 11 11 
 */
