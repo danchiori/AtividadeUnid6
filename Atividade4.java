@@ -35,6 +35,27 @@ saida: os três vetores na tela
             vetor3[i] = vetor1[i] + vetor2[i];
         }
 
+         // Mostrar vetor 1
+        System.out.println("\nVetor 1:");
+ 
+        for (int i = 0; i < 10; i++) {
+            System.out.print(vetor1[i] + " ");
+        }
+ 
+        // Mostrar vetor 2
+        System.out.println("\nVetor 2:");
+ 
+        for (int i = 0; i < 10; i++) {
+            System.out.print(vetor2[i] + " ");
+        }
+ 
+        // Mostrar vetor 3
+        System.out.println("\nVetor 3:");
+ 
+        for (int i = 0; i < 10; i++) {
+            System.out.print(vetor3[i] + " ");
+        }
+
         sc.close();
     }
 }
